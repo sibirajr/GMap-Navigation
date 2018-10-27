@@ -1,0 +1,46 @@
+.map {
+  height: 99vh;
+  width: 98vw;
+}
+
+.findme {
+  border: 1px solid black;
+  width: 30px;
+  height: 30px;
+  background: black;
+  position: fixed;
+  bottom: 50vh;
+  right: 5px;
+}
+
+#locationField {
+  position: absolute;
+  width: 190px;
+  height: 25px;
+  left: 250px;
+  top: 0px;
+  z-index: 5;
+  background-color: #fff;
+}
+
+#locationFieldTo {
+  position: absolute;
+  width: 190px;
+  height: 25px;
+  left: 500px;
+  top: 0px;
+  z-index: 5;
+  background-color: #fff;
+}
+
+#searchButton {
+  position: absolute;
+  height: 25px;
+  left: 700px;
+  top: 0px;
+  z-index: 5;
+}
+
+#autocomplete {
+  width: 100%;
+}

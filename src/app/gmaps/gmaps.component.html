@@ -1,0 +1,16 @@
+<div id="locationField">
+  <input id="autocompleteFrom" placeholder="Enter From city" type="text" />
+</div>
+<div id="locationFieldTo">
+  <input id="autocompleteTo" placeholder="Enter to city" type="text" />
+</div>
+<button id="searchButton" (click)="search()">
+  Route
+</button>
+<div class="map" #googleMap id="googleMap"></div>
+<button (click)="wayPointsSearch()">
+  Direction
+</button>
+<div class="map" id="CompleteDirection"></div>
+
+<div class="findme" id="find" (click)="findMe()"></div>
